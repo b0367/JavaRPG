@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b472eac2-ffe8-49bc-97bc-c2ead8f51ac6" name="Default" comment="" />
+    <list default="true" id="b472eac2-ffe8-49bc-97bc-c2ead8f51ac6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jnativehook_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaRPG/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaRPG/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRPG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRPG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,29 +24,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JavaRPG.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaRPG.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaRPG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="413" column="31" selection-start-line="413" selection-start-column="31" selection-end-line="413" selection-end-column="31" />
+            <state relative-caret-position="511">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <element signature="method#main#0;class#JavaRPG#0" />
                 <element signature="method#moveup#0;class#JavaRPG#0" />
                 <element signature="method#movedown#0;class#JavaRPG#0" />
                 <element signature="method#moveright#0;class#JavaRPG#0" />
                 <element signature="method#move#0;class#JavaRPG#0" />
-                <element signature="method#setup#0;class#JavaRPG#0" />
                 <element signature="method#draw#0;class#JavaRPG#0" />
                 <element signature="method#cL#0;class#JavaRPG#0" />
                 <element signature="method#hpBar#0;class#JavaRPG#0" />
                 <element signature="method#repeat#0;class#JavaRPG#0" />
-                <element signature="method#start#0;class#JavaRPG#0" />
                 <element signature="method#shop#0;class#JavaRPG#0" />
                 <element signature="method#fight#1;class#JavaRPG#0" />
                 <element signature="method#instancesOf#0;class#JavaRPG#0" />
                 <element signature="method#nativeKeyTyped#0;class#JavaRPG#0" />
                 <element signature="method#nativeKeyPressed#0;class#JavaRPG#0" />
                 <element signature="method#nativeKeyReleased#0;class#JavaRPG#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,6 +79,7 @@
       <find>&quot;▮&quot;</find>
       <find>&quot;◉&quot;</find>
       <find>&quot;•</find>
+      <find>case 'e'</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;▮&quot;</replace>
@@ -71,18 +88,24 @@
       <replace>&quot;•&quot;</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/JavaRPG.java" />
+        <option value="$PROJECT_DIR$/src/MainMenu.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="33" />
+    <option name="y" value="123" />
+    <option name="width" value="1386" />
+    <option name="height" value="789" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -98,24 +121,7 @@
             <path>
               <item name="JavaRPG" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaRPG" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaRPG_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaRPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,8 +133,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jnativehook-2.1.0/jnativehook/jar/jnativehook-2.1.0.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
@@ -145,9 +151,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainMenu">
     <configuration name="JavaRPG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaRPG" />
+      <module name="JavaRPG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainMenu" />
       <module name="JavaRPG" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -192,8 +203,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.JavaRPG" />
+      <item itemvalue="Application.MainMenu" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainMenu" />
         <item itemvalue="Application.JavaRPG" />
       </list>
     </recent_temporary>
@@ -223,8 +239,8 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33676976" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47766322" />
       <window_info anchor="bottom" id="Terminal" weight="0.3298969" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -254,26 +270,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JavaRPG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="413" column="31" selection-start-line="413" selection-start-column="31" selection-end-line="413" selection-end-column="31" />
+        <state relative-caret-position="511">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="method#main#0;class#JavaRPG#0" />
             <element signature="method#moveup#0;class#JavaRPG#0" />
             <element signature="method#movedown#0;class#JavaRPG#0" />
             <element signature="method#moveright#0;class#JavaRPG#0" />
             <element signature="method#move#0;class#JavaRPG#0" />
-            <element signature="method#setup#0;class#JavaRPG#0" />
             <element signature="method#draw#0;class#JavaRPG#0" />
             <element signature="method#cL#0;class#JavaRPG#0" />
             <element signature="method#hpBar#0;class#JavaRPG#0" />
             <element signature="method#repeat#0;class#JavaRPG#0" />
-            <element signature="method#start#0;class#JavaRPG#0" />
             <element signature="method#shop#0;class#JavaRPG#0" />
             <element signature="method#fight#1;class#JavaRPG#0" />
             <element signature="method#instancesOf#0;class#JavaRPG#0" />
             <element signature="method#nativeKeyTyped#0;class#JavaRPG#0" />
             <element signature="method#nativeKeyPressed#0;class#JavaRPG#0" />
             <element signature="method#nativeKeyReleased#0;class#JavaRPG#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -337,7 +360,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -35,7 +35,7 @@ public class JavaRPG implements NativeKeyListener {
     private static volatile boolean justPressed = true;
 
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
+        /*Logger logger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
         logger.setLevel(Level.WARNING);
         logger.setUseParentHandlers(false);
         try {
@@ -47,7 +47,7 @@ public class JavaRPG implements NativeKeyListener {
             System.exit(1);
         }
         GlobalScreen.addNativeKeyListener(new JavaRPG());
-        start();
+        start();*/
     }
 /*
   public static void moveup() {
@@ -205,7 +205,8 @@ public class JavaRPG implements NativeKeyListener {
 
         while (true) {
 
-            while (justPressed) {}
+            while (justPressed) {
+            }
             justPressed = true;
             //cL();
             switch (input) {
@@ -242,8 +243,7 @@ public class JavaRPG implements NativeKeyListener {
                     cL();
                     break;
                 case 'e':
-                    Runtime.getRuntime().halt(0);
-                    break;
+                    return;
                 case 'v':
                     try (Writer writer = new BufferedWriter(new OutputStreamWriter(
                             new FileOutputStream("test.csv"), "utf-8"))) {
@@ -346,7 +346,19 @@ public class JavaRPG implements NativeKeyListener {
         return rv.toString();
     }
 
-    private static void start() {
+    public void start() {
+        Logger logger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
+        logger.setLevel(Level.WARNING);
+        logger.setUseParentHandlers(false);
+        try {
+            GlobalScreen.registerNativeHook();
+        } catch (NativeHookException ex) {
+            System.err.println("There was a problem registering the native hook.");
+            System.err.println(ex.getMessage());
+
+            System.exit(1);
+        }
+        GlobalScreen.addNativeKeyListener(new JavaRPG());
         try {
             setup();
         } catch (IOException | InterruptedException e) {
@@ -355,7 +367,8 @@ public class JavaRPG implements NativeKeyListener {
     }
 
     private static void shop() {
-        while(justPressed){}
+        while (justPressed) {
+        }
         justPressed = true;
         for (int i = 0; i < sitems.size(); i++) {
             System.out.println(sitems.get(i) + " Price: " + sitemsp.get(i));
@@ -406,7 +419,8 @@ public class JavaRPG implements NativeKeyListener {
                 System.out.println(sitems.get(i) + " Price: " + sitemsp.get(i));
             }
             System.out.println(gold);
-            while(justPressed){}
+            while (justPressed) {
+            }
             justPressed = true;
         }
     }
